@@ -1,0 +1,126 @@
+comentarios + footer CSS
+/*Caja de comentarios*/
+
+
+.comment-box {
+  max-width: 90%;
+  margin: auto;
+  padding: 30px;
+  background-color: #f1cfcf;
+  border-radius: 20px;
+  font-size: 28px;
+
+}
+
+.h5 {
+  font-size: 50px;
+  margin-bottom: 20px;
+
+}
+
+#comment-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.cuadro_comentarios {
+  padding: 10px;
+  margin-bottom: 0.5%;
+  border: 1px solid #ccc;
+  border-radius: px;
+  font-family: 'Roboto', sans-serif;
+  resize: none;
+
+}
+
+button {
+  padding: 1% 5%;
+  background-color: #a01212;
+  color: #fff;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  position: relative;
+  margin: auto
+}
+
+button:hover {
+  background-color: #b73b06;
+}
+
+.comments {
+  margin-top: 20px;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.comment {
+  background-color: #f9e4e4;
+  padding: 30px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  font-family: 'Roboto', sans-serif;
+
+}
+/*footer*/
+
+footer {
+  background-color: white ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top: 1px solid gray;
+  box-shadow: 0px -5px 5px rgba(0, 0, 0, 0.2);
+  height: 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+.footer_logo { 
+  height:auto;
+  width: 30%;
+    }
+
+.footer-section {
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 0.5%;
+}
+
+.footer_text
+ {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: rgb(183, 4, 4);
+}
+
+.copyright {
+  margin-top: 0.5%;
+}
+ .texto_footer{
+  display: flex;
+  justify-content: space-between;
+ }
+
+ .redes_footer{
+  display: flex;
+  justify-content: space-between;
+ }
+
+
+.img_logosredes {
+  width: 3%;
+  height: auto;
+  display: inline-block;
+  margin-left: 1%;
+}

@@ -1,0 +1,82 @@
+css nav
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+header{
+
+    height: 10vh;
+    width: 100%;
+    background-color:white;
+}
+
+.header{
+    background-color: white;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 10vh;
+    position: relative;
+
+}
+
+.header .logo {
+    cursor: pointer;
+
+}
+
+.logoNav{
+    position: absolute; 
+        max-width: 90%;
+        max-height: 80%;
+        margin-top: -2.4%;
+        margin-left: -45%;
+        
+       
+    
+    
+}
+
+.header .logo img{
+    height: 10vh;
+    width: auto;
+    transition: all 0.3s;
+    border-radius: 50%;
+
+}
+nav{
+    position: absolute;
+    top: 50%;
+}
+.header .logo img:hover{
+    transform: scale(1.2);
+}
+.header ul {
+    list-style: none;
+
+
+}
+.navbar li {
+    display: inline-block;
+    padding: 0 20px;
+
+}   
+
+nav ul li:hover{
+    transform: scale(1.1);
+}
+
+.navbar li a{
+    font-size: 700;
+    color: black;
+    text-decoration: none;
+
+}
+nav ul li a:hover{
+    color: rgb(168, 50, 54);
+}

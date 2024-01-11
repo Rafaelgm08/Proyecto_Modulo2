@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cssw.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/latest/normalize.cssE">
+    <title>Document</title>
+</head>
+    <header class="header">
+        <section class="logo">
+            <img class="logoNav" src="recursos/logo.png" alt="">
+
+        </section>
+
+        <nav>
+            <ul class="navbar">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">SERVICIOS</a></li>
+                <li><a href="#">CONTACTAR</a></li>
+            </ul>
+        </nav>
+    </header>
+<body style="display: grid;">
+    
+    <section class="contenedorPrincipal">
+        <img src="recursos/wigoMale.jpg"  class="imgLogo">
+        <article class="contenedorRatreo">
+            <p style="font-family: Regular; margin: 0; padding-right: 4px; font-weight:bold; font-size: 13px; text-align: center; border-right:0.5px solid rgb(189, 189, 189);">Consultar <br>paquete</p>
+            <section class="contenedorInput">
+                <input class="formularioMale" type="text" id="numeroRastreo" placeholder="Ingresa el # de rastreo">
+            </section>
+            <section class="contenedorBoton">
+                <button class="envioMale" onclick="rastrearEnvio()" data-errmsg="Ingresa por lo menos un número de rastreo">Rastrear</button>
+            </section>
+        </article>
+    </section>
+
+    <section class="contenedor"> 
+        <article class="contGen contenedorJustify contAling  ComunidadMale">
+            <section class="contenedorIn">
+                <img class="TiendaMale" src="recursos/tienda-online-1.jpg" style="width: 12rem; height: 9.4rem; border-radius: 5px; align-self: center;">
+                <section class="contenedorInfo">
+                    <h2 class="textC">Comunidad colaborativa</h2>
+                    <p class="textC">Wigo conecta a personas dispuestas a ayudar con aquellas que necesitan asistencia en diversas tareas, 
+                    desde compras de supermercado hasta envios de documentos importantes.</p>
+                </section>
+            </section>
+        </article> 
+        <article class="contGen contAling  contenedorConvivencia">
+            <section class="contenedorIn">
+                <img class="SeguroMale" src="recursos/seguro-por-kilometro-1.jpg" style="width: 12rem; height: 9.4rem; border-radius: 5px; align-self: center;">
+                <section class="contenedorInfo">
+                    <h2 class="textC">Conveniencia</h2>
+                    <p class="textC">Si tienes un favor que no puedes hacer tú mismo debido a tiempo o distancia, Wigo te brinda una solución práctica para encontrar a alguien que pueda hacerlo por ti.</p>
+            
+                </section>
+            </section>
+        </article> 
+        <article class="contGen contenedorJustify contenedorSeguridad">
+            <section class="contenedorIn">
+                <img class="VerificaMale" src="recursos/capture-blog-autentica.jpg" style="width: 12rem; height: 9.4rem; border-radius: 5px; align-self: center;">
+                <section class="contenedorInfo">
+                    <h2 class="textC">Seguridad y confianza</h2>
+                    <p class="textC"> La plataforma de Wigo generalmente incluye medidas de seguridad y verificación de perfiles para garantizar la confiabilidad de los usuarios, 
+                        lo que te permite confiar en las personas que te ayudarán.</p>
+                </section>
+            </section>
+        </article> 
+        <article class="contGen contenedorVariedad">
+            <section class="contenedorIn">
+                <img class="TiempoMale"src="recursos/Mascotas-en-familia-1.jpg" style="width: 12rem; height: 9.4rem; border-radius: 5px; align-self: center;">
+                <section class="contenedorInfo">
+                    <h2 class="textC">Variedad de tareas:</h2>
+                    <p class="textC">Puedes utilizar Wigo para una amplia variedad de tareas y favores, lo que te brinda flexibilidad en la asistencia y mas tiempo para tu familia.</p>
+                </section>
+            </section>
+        </article> 
+       
+    </section>
+     <!-- comentarios -->
+     <article>
+        <section class="container_5"></section>
+        <section class="comment-box">
+            <h5> ♡ Nos encanta escucharte, dejanos tu comentario:</h5>
+            <form id="comment-form">
+                <input class="cuadro_comentarios" type="text" id="name" placeholder="Ingresa tu nombre" required>
+                <textarea class="cuadro_comentarios" id="comment" placeholder="Escribe tu comentario" required></textarea>
+                <button type="submit">Comentar</button>
+            </form>
+        </section>
+        <section class="comments">
+        </section>
+    </article>
+
+       </main>
+</body>
+<footer>
+
+        <section class="footer-section">
+            <img class="footer_logo" src="recursos/logo.png" alt="Logo de la empresa">
+                 </section>
+        <section class="footer-section">
+            <ul>
+                <li><a class="footer_text"href="https://web.whatsapp.com">Contacto</a></li>
+                <li><a class="footer_text"href="https://github.com/Estefaniacasadiego/WIGO">Acerca de WiGo</a></li>
+                <li><a class="footer_text"href="https://github.com/Estefaniacasadiego/WIGO">Trabaja con nosotros</a></li>
+            </ul>
+        </section>
+        <section class="footer-section">
+            <a class="footer_text" href="https://www.facebook.com/"><img class="img_logosredes" src="recursos/Icono Facebook.png" alt="Facebook"></a>
+            <a class="footer_text"href="https://www.instagram.com/"><img class="img_logosredes" src="recursos/Icono Instagram.png" alt="Instagram"></a>
+            <a class="footer_text"href="https://twitter.com/"><img class="img_logosredes" src="recursos/Icono Twitter.png" alt="Twitter"></a>
+            <a class="footer_text"href="https://www.linkedin.com/"><img class="img_logosredes" src="recursos/linkedin.png" alt="LinkedIn"></a>
+        </section>
+        <section class="copyright">
+            Copyright WiGo Codewizards: Plataforma de envios, contenido netamente educativo. Bootcamp BIT - Universidada Iberoamericana IBERO.
+        </section>
+   
+
+</footer>
+<script src="java.js"></script>
+</html>

@@ -1,0 +1,270 @@
+@import url(https://db.onlinewebfonts.com/c/ce0326bb829449f42eedc2a38e45ef26?family=TypnicHeadlineSlab);
+@import url(https://db.onlinewebfonts.com/c/e695a2b548e145591a266fc50eb492e0?family=Regular);
+
+
+body{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.contenedorPadre{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+
+
+}
+.contenedorGeneral{
+    display: grid;
+    grid-template-rows: 3rem 5rem 2rem 24rem 9rem 3rem;
+    grid-template-columns: 1fr;
+    padding: 10px 35px 0 35px;
+
+}
+
+
+.contenedorRegresar{
+    display: flex;
+    gap: 10px;
+
+}
+.contenedorFlecha{
+    display: flex;
+    width: 31px;
+}
+
+.arrow{
+
+    font-size: 30px;
+    align-self: center;
+    transition: .2s; 
+    cursor: pointer;
+}
+.arrow:hover{
+    transform: scale(1.3);
+}
+
+.contenedorRegresar{
+    display: flex;
+    align-items: center;
+    height: 100%;
+
+}
+
+
+.regresar{
+    font-size:18px;
+    font-family: "TypnicHeadlineSlab";
+    margin: 0;
+}
+.contenedorSaludo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.contenedorTextoSaludo{
+    display: grid;
+    grid-template-columns: 7rem 14rem 7rem;
+    align-items: center;
+}
+.textSaludo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.decoracion{
+    display: flex;
+    height: 0px;
+    border: 2px solid #780803;
+    border-radius: 100px;
+    width: 100%;
+}
+
+.contenedorTextRegi{
+    display: flex;
+    justify-content: center;
+}
+
+.contenedorInputsDatos{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 20px;
+    row-gap: 20px;
+}
+
+.contInputs{
+
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.inputs{
+
+    height: 25px;
+    padding: 2px 5px;
+    border-radius: 3px;
+    border: 0.2px solid rgb(212, 211, 211);
+    outline: none;
+
+}
+
+.inputs:focus{
+    border: 1px solid #780803;
+}
+.label{
+    align-self: self-end;
+    font-family: "TypnicHeadlineSlab";
+    font-size: 11px;
+}
+
+.contenedorSelccion{
+    justify-self: self-start;
+    padding: 8px;
+}
+.seleccion{
+    width: 60%;
+    height: 28px;
+    border-radius: 3px;
+    border: 0.2px solid rgb(212, 211, 211);
+    outline: none;
+}
+.decoracionText{
+    display: flex;
+    column-gap: 10px;
+}
+
+
+.contenedorTextoSaludo{
+    display: grid;
+    grid-template-columns: 7rem 14rem 7rem;
+    align-items: center;
+}
+.textSaludo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.decoracion{
+    display: flex;
+    height: 0px;
+    border: 2px solid #780803;
+    border-radius: 100px;
+    width: 100%;
+}
+
+.contenedorTextRegi{
+    display: flex;
+    justify-content: center;
+}
+
+.contenedorInputsDatos{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 20px;
+    row-gap: 20px;
+}
+
+.contInputs{
+
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.inputs{
+
+    height: 25px;
+    padding: 2px 5px;
+    border-radius: 3px;
+    border: 0.2px solid rgb(212, 211, 211);
+    outline: none;
+
+}
+
+.inputs:focus{
+    border: 1px solid #780803;
+}
+.label{
+    align-self: self-end;
+    font-family: "TypnicHeadlineSlab";
+    font-size: 11px;
+    margin-bottom: 10px;
+
+}
+
+.contenedorSelccion{
+    justify-self: self-start;
+    padding: 8px;
+}
+.seleccion{
+    width: 60%;
+    height: 30px;
+    border-radius: 3px;
+    border: 0.2px solid rgb(212, 211, 211);
+    outline: none;
+}
+.decoracionText{
+    display: flex;
+    column-gap: 10px;
+}
+
+.contenedorTerminosCondiciones{
+    display: grid;
+    grid-row: 50% 50%;
+    padding: 20px 7px;
+}
+
+input[type="checkbox"] + label:before {
+	content: "";
+	width: 26px;
+	height: 26px;
+	float: left;
+	margin: 0.5em 0.5em 0 0;
+	border: 2px solid #ccc;
+	background: #fff;
+}
+input[type="checkbox"]:checked + label:before {
+	border-color: #780803;
+}
+
+input[type="checkbox"]:checked + label:after {
+    content: "";
+    width: 12px;
+    height: 6px;
+    border: 4px solid #780803;
+    float: left;
+    margin-left: -1.95em;
+    border-right: 0;
+    border-top: 0;
+    margin-top: 1em;
+    transform: rotate(-55deg);
+}
+input[type="checkbox"] {
+	display: none;
+}
+input[type="checkbox"] + label {
+    font-weight: bold;
+    line-height: 3em;
+    color: #313131;
+    cursor: pointer;
+}
+
+.contenedorBtnInicio{
+    display: flex;
+    justify-content: center;
+}
+.btnRegistrar{
+    height: 2.5rem;
+    width: 9rem;
+    border-radius: 18px;
+    border: none;
+    cursor: pointer;
+    background-color: #780803;
+    font-size: 10px;
+    font-family: "TypnicHeadlineSlab";
+    color: white;
+}

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/registro2.css">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body >
+    
+    <main class="contenedorPadre">
+        <section class="contenedorGeneral">
+            <section class="contenedorRegresar">
+                <article class="contenedorFlecha"> 
+                    <a href="http://127.0.0.1:5500/html/inicio.html"><i class="fa-solid fa-arrow-left arrow" style="color: #000000;"></i></a>
+                </article>
+                <article class="contenedorRegresar">
+                    <p class="regresar">Regresar</p>
+            </section>
+            <section class="contenedorSaludo">
+
+                <article class="contenedorTextoSaludo">
+                    <hr class="decoracion decoracion1">
+                    <section class="textSaludo">
+                        <p style="margin: 0; margin-top: 10px; font-family: Regular; font-size: 20px; font-weight: 600;">¡Hola!</p>
+                        <p style="margin: 0; margin-top: 3px; font-family: Regular; font-size: 20px; font-weight: 600;">Bienvenido a WiGo</p>
+                    </section>
+                    <hr class="decoracion decoracion2">
+                </article>
+                
+            </section>
+            <section class="contenedorTextRegi">
+                <p style="margin: 0; margin-top: 10px; font-family: Regular; font-size: 15px; font-weight: 500;">Registrarte es muy fácil y rápido.</p>
+            </section>
+            <section class="contenedorInputsDatos"> 
+                <section class="nombreInput contInputs">
+                    <label class="label" for="nombre">Nombre</label>
+                    <input class="inputs nombre" type="text">
+                </section>
+                <section  class="apellidoInput contInputs">
+                    <label  class="label" for="apellido">Apellido</label>
+                    <input  class="inputs apellido" type="text" >
+                </section>
+                <section class="emailInput contInputs">
+                    <label class="label" for="email">Email</label>
+                    <input class="inputs email" type="email">
+                </section>
+                <section class="passwordInput contInputs">
+                    <label class="label" for="password">Contraseña</label>
+                    <input class="inputs password" type="password" >
+                </section>
+                <section class="confirmaPassword contInputs">
+                    <label class="label" for="conPassword">Confirmar contraseña</label>
+                    <input class="inputs" type="password">
+                </section>
+                <section class="fechaNacimineto contInputs">
+                    <label class="label" for="nacimiento"> Fecha de nacimiendo</label>
+                    <input class="inputs naciminento" type="date">
+                </section>
+                <section class="contenedorSelccion contInputs">
+                    <label class="label" for="seleccion">Tipo de identificacion</label>
+                    <select class="seleccion" name="tipo">
+                        <option value="defecto"> N/A</option>
+                        <option value="NIT">NIT</option>
+                        <option value="TI" >TI</option>
+                        <option value="CC">CC</option>
+                    </select>
+                </section>
+                <section class="numeroIdentificacion contInputs">
+                    <label class="label" for="identificacion"> Numero de identificacion</label>
+                    <input class="inputs identificacion" type="text">
+                </section>
+                <section class="numeroTelefono contInputs" >
+                    <label class="label" for="telefono"> Numero de telefono</label>
+                    <input class="inputs telefono" type="tel">
+                </section>
+                <section class="decoracionText contInputs" >
+                    <p class="textUser" style="align-self: center; font-family: TypnicHeadlineSlab; font-size: 15px; margin:0; margin-top: 10px;">CRAETE USER</p>
+                    <img src="/recursos/logo.png" alt="" style="width: 30px; height: 30px; margin-top: 7px;">
+                </section>
+            </section>
+            <section class="contenedorTerminosCondiciones">
+
+                <article class="terminosCondiciones">
+                    <input type="checkbox" id="check1" ><label class="labelTerminos" for="check1">Acepto <a href="">términos y condiciones</a> y <a href="">política de privacidad.</a></label>
+                </article>
+                <article class="aceptoInfo">
+                    <input type="checkbox" id="check2" ><label class="labelTerminos" for="check2">Autorizo a WiGo para enviarme <a href="" >información</a></label>
+                </article>
+            </section>
+            <article class="contenedorBtnInicio">
+                <button type="button" class="btnRegistrar">registrame</button>
+            </article>
+        </section>
+    </main>
+
+
+</body>
+</html>
