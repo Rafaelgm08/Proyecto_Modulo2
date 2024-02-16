@@ -1,0 +1,209 @@
+@import url(https://db.onlinewebfonts.com/c/e695a2b548e145591a266fc50eb492e0?family=Regular);
+main {
+  height:92vh;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+
+.contenedorpadre {
+  background-color: white;
+  display:grid;
+  grid-template-columns: 50% 50%;
+  width:90%;
+  height:85%;
+  column-gap: 10px;
+  padding:30px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+#apikey {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+#container {
+  height: 100%;
+  display: flex;
+}
+
+#sidebar {
+  flex-basis: 15rem;
+  flex-grow: 1;
+  padding: 1rem;
+  max-width: 30rem;
+  height: 100%;
+  box-sizing: border-box;
+  overflow: auto;
+  display:none;
+}
+
+#map {
+  flex-basis: 0;
+  flex-grow: 4;
+  height: 100%;
+}
+
+#sidebar {
+  flex-direction: column;
+}
+
+
+.contenedorbarralateral {
+  background-color: white;
+  display: grid;
+  grid-template-rows:7% repeat(5,auto);
+  padding:4rem 8rem;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  row-gap: 10px;
+  overflow-y: scroll;
+}
+
+.seleccionCiudades {
+  display:flex;
+  height: 20px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding:6px 15px;
+  font-family: "regular";
+  justify-content: center;
+  align-items: center;
+}
+
+
+.contenedorPuntos {
+  display:grid;
+  height:10rem;
+  grid-template-rows: 42% 16% 42%;
+  row-gap: 3px;
+}
+
+.puntos {
+  display: grid;
+  grid-template-columns: 15% 85%;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  border-radius: 5px;
+}
+
+.textpuntos {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "regular";
+    background-color: #780803;
+    color: white;
+}
+
+.direccion {
+  display:grid;
+  grid-template-columns: 5% 70% 25%;
+  align-items: center;
+  margin-left: 10px;
+}
+.flecha {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.intercambio {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inputs {
+  width:100%;
+  border:none;
+  outline:none;
+  font-family: "regular";
+  font-size: 18px;
+  height: 100%;
+}
+
+.fa-arrow-down-up-across-line {
+  cursor: pointer;
+}
+
+.contenedorpaquetes {
+  display:grid;
+  grid-template-rows:auto auto;
+}
+
+.contenedorpregunta {
+  height: 1rem;
+  font-family: "regular";
+}
+
+
+.contenedorvarios {
+  display:grid;
+  grid-template-columns: 33.3% 33.3% 33.3%;
+  height:100px;  
+  cursor:pointer;
+  font-size: 18px;
+  font-family: "regular";
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  border-radius: 5px;
+}
+
+.contenedorboton {
+  background-color: white;
+  border:none;
+  outline:none;
+  transition:0.3s;
+}
+
+.contenedorboton:hover {
+  background-color: #780803;
+  transform: scale(1.05);
+}
+
+.nuevosobre {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-right: 0.1px solid rgb(227, 220, 220);
+} 
+
+.colornuevosobre {
+  background-color: #780803;
+  color:white;
+}
+
+.lsobre {
+  fill:white;
+}
+
+.paquete {
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.otros {
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  flex-direction: column;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-left: 0.1px solid rgb(227, 220, 220);
+}
+
+
+
+
+.valordeclarado {
+  display:flex;
+  padding-left: 15px;
+  height: 40px;
+  width:100%;
+  font-family: "regular";
+}
